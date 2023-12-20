@@ -11,8 +11,8 @@ function toggleElem(elem)
      } else {
           imgs.push(elemId);
           $("ul#portfolio_ul").append("<li id='portfolio_"+elemId+"' >" +
-               "<img class='handle' src='http://mg.digidol-media.com/wp-content/plugins/pdf-portfolio/icn/handle@2x.png' width=19 />" +
-               "<img class='portThumb' src='" + elem.src.replace('w=600&h=400','w=200&h=132') + "' height=66 /><a href='#' class='remove_from_portfolio'><img src='http://mg.digidol-media.com/wp-content/plugins/pdf-portfolio/icn/delete@2x.png' width=19 /></a>" +
+               "<img class='handle'  src='../../plugins/pdf-portfolio/icn/handle@2x.png')' width=19 />" +
+               "<img class='portThumb' src='" + elem.src.replace('w=600&h=400','w=200&h=132') + "' height=66 /><a href='#' class='remove_from_portfolio'><img src='../../plugins/pdf-portfolio/icn/delete@2x.png' width=19 /></a>" +
                "<input type='hidden' name='img[]' value='" + elemId + "' />" +
                "</li>");
           $(elem).siblings("img.check").show();

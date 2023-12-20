@@ -108,7 +108,7 @@ $(window).load(function()
 			</div>
 			<div class="menu">
 			<?php	
-			echo "<form action='".get_admin_url()."admin-post.php' method='post' id='pdfform'>";
+			echo "<form action='".get_admin_url()."admin-post.php' method='post' id='pdfform' target='blank'>";
 echo "<input type='hidden' name='photographer' value='" .  $parent_title  . "' />";
 echo "<input type='hidden' name='action' value='submit-form' />";
 ?>

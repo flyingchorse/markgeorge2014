@@ -74,11 +74,11 @@ $('#close-pane').bind('click', function() {
 });
 */
 
-$('.fancybox').fancybox({
-	helpers: {
-		title: null
-	}
-});
+// $('.fancybox').fancybox({
+// 	helpers: {
+// 		title: null
+// 	}
+// });
 
 
  });
